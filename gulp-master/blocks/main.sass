@@ -1,0 +1,27 @@
+//*********************************************
+//		Assets
+//*********************************************
+@import "_base/reset"
+// @import "_base/variables"
+@import "_base/fonts"
+@import "_base/grid"
+
+//*********************************************
+//		Blocks
+//*********************************************
+html, body
+  font-size: 10px
+*
+  box-sizing: border-box
+.A
+  +col(9)
+  font-size: 4rem
+  color: grey
+  @media #{$l}
+    color: green
+  @media #{$m}
+    color: red
+  @media #{$s}
+    color: black
+  @media #{$xs}
+    color: #777

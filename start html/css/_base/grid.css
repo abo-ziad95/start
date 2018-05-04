@@ -1,0 +1,12 @@
+/* line 1, C:/Users/ammar/Desktop/start/sass/_base/grid.sass */
+.conteiner {
+  margin: 0 auto;
+}
+
+/* line 4, C:/Users/ammar/Desktop/start/sass/_base/grid.sass */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=../../css/_base/grid.map */
